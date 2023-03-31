@@ -10,7 +10,7 @@ while (true)
     "5. SortedList" + '\n' +
     "6. BitArray" + '\n' +
     "7. LinkedList" + '\n' +
-    "8. SorterdSet");
+    "8. Set");
     string command = Console.ReadLine();
     if (command == "1")
     {
@@ -539,7 +539,7 @@ while (true)
     }
     else if (command == "8")
     {
-        SortedSet<string> sset = new SortedSet<string>();
+        Set<string> sset = new SortedSet<string>();
         string[] array = new string[10];
         while (true)
         {
